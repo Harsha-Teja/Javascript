@@ -1,0 +1,33 @@
+body {
+  background-color: #ffccf9;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  margin-top: 30px;
+  width: 396px;
+  height: 396px;
+  border: solid white 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  border: solid white 0.5px;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.pac {
+  background-color: green;
+}
+
+.ghost {
+  background-color: brown;
+}
