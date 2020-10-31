@@ -1,5 +1,5 @@
 body {
-  background-color: #ffccf9;
+  background-color: #ebebeb;
   display: flex;
   justify-content: center;
 }
@@ -21,13 +21,13 @@ body {
 }
 
 .wall {
-  background-color: blue;
+  background-color: #f5a25d;
 }
 
 .pac {
-  background-color: green;
+  background-color: #fa7f72;
 }
 
 .ghost {
-  background-color: brown;
+  background-color: #389393;
 }
