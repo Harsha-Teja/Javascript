@@ -6,13 +6,13 @@ body {
 }
 
 .title {
-  color: #16aadf;
+  color: #fcf876;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .entry-textbox {
-  background-color: #fa2355;
+  background-color: #cee397;
   width: 20em;
   height: 10em;
   padding: 1em;
@@ -34,8 +34,8 @@ body {
 }
 
 #entries {
-  background: #16697a;
-  color: #ede7e3;
+  background: #8bcdcd;
+  color: #3797a4;
   font-family: cursive;
   padding: 2em;
   max-width: 20em;
