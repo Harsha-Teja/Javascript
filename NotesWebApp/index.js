@@ -3,7 +3,7 @@ const entriesSection = document.querySelector('#entries');
 const entryTextbox = document.querySelector('.entry-textbox');
 const entriesNav = document.querySelector('.entries-nav');
 
-let count = 1;
+let add = 1;
 function addEntryToDom(event) {
     event.preventDefault();
     const entryDiv = document.createElement('div');
@@ -15,7 +15,7 @@ function addEntryToDom(event) {
     
     const displayEntryButton = document.createElement('button');
     displayEntryButton.className = 'display-entry-button';
-    displayEntryButton.innerText = count;
+    displayEntryButton.innerText = add;
     entriesNav.appendChild(displayEntryButton);
 
     displayEntryButton.addEventListener('click', function() {
@@ -25,8 +25,7 @@ function addEntryToDom(event) {
         }
         entryDiv.style.display = 'block';        
     })
-    
-    count++
+    add = add + 1
 }
 
 entryForm.addEventListener('submit', addEntryToDom)
