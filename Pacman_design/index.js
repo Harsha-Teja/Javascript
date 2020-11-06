@@ -1,5 +1,6 @@
 const squares = Array.from(document.querySelectorAll('.grid div'))
 
+// We are assigning different set of things in our matrices
 const layout = [ 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,
                 1,0,1,1,1,0,0,0,0,1,1,0,1,1,1,0,1,

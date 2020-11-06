@@ -8,7 +8,7 @@ body {
   margin-top: 30px;
   width: 396px;
   height: 396px;
-  border: solid white 8px;
+  border: solid blue 8px;
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -17,17 +17,17 @@ body {
 .grid div {
   width: 20px;
   height: 20px;
-  border: solid white 0.5px;
+  border: solid brown 0.5px;
 }
 
 .wall {
-  background-color: white;
+  background-color: red;
 }
 
 .pac {
-  background-color: black;
+  background-color: purple;
 }
 
 .ghost {
-  background-color: blue;
+  background-color: yellow;
 }
