@@ -94,10 +94,6 @@ function move() {
 }
 
 
-
-
-
-
 function generateApple() {
     do {
         appleIndex = Math.floor(Math.random() * squares.length)
