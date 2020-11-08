@@ -107,14 +107,14 @@ Layout
 }
 
 header {
-  background: #f8f8f8;
+  background: grey;
   padding: 2em 0;
   text-align: center;
   margin-bottom: 3em;
 }
 
 footer {
-  background: #143774;
+  background: black;
   color: white;
   text-align: center;
   padding: 3em 0;
