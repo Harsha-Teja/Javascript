@@ -9,7 +9,7 @@ body {
   flex-wrap: wrap;
   width: 200px;
   height: 200px;
-  border: solid 2px red;
+  border: solid 2px purple;
 }
 
 .square {
@@ -18,9 +18,9 @@ body {
 }
 
 .snake {
-  background-color: blue;
+  background-color: black;
 }
 
 .apple {
-  background-color: black;
+  background-color: grey;
 }
