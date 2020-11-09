@@ -20,12 +20,12 @@ body {
 
 #push-btn,
 #unshift-btn {
-  background-color: brown;
+  background-color: blue;
 }
 
 #shift-btn,
 #pop-btn {
-  background-color: black;
+  background-color: red;
 }
 
 h1 {
@@ -48,7 +48,7 @@ button {
   font-family: Baloo;
   letter-spacing: px;
   background: darkcyan;
-  color: white;
+  color: grey;
   border: none;
   padding: 4px 10px;
   border-radius: 6px;
