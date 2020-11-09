@@ -21,13 +21,13 @@ body {
 }
 
 .wall {
-  background-color: red;
-}
-
-.pac {
   background-color: purple;
 }
 
+.pac {
+  background-color: red;
+}
+
 .ghost {
-  background-color: yellow;
+  background-color: black;
 }
