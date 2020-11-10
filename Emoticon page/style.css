@@ -39,7 +39,7 @@ input {
   display: block;
   border: none;
   height: 30px;
-  background: white;
+  background: blue;
   border-radius: 6px;
   text-align: center;
 }
@@ -47,8 +47,8 @@ input {
 button {
   font-family: Baloo;
   letter-spacing: px;
-  background: darkcyan;
-  color: grey;
+  background: grey;
+  color: black;
   border: none;
   padding: 4px 10px;
   border-radius: 6px;
