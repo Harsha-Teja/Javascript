@@ -114,8 +114,8 @@ header {
 }
 
 footer {
-  background: black;
-  color: white;
+  background: brown;
+  color: grey;
   text-align: center;
   padding: 3em 0;
 }
@@ -170,7 +170,7 @@ nav a:focus {
 }
 
 .current-page:hover {
-  color: #707070;
+  color: blue;
 }
 
 @media (max-width: 675px) {
