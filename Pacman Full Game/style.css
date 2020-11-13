@@ -24,7 +24,7 @@ body {
 }
 
 .wall {
-  background-color: blue;
+  background-color: yellow;
 }
 
 .power-pellet {
@@ -33,7 +33,7 @@ body {
 }
 
 .pacman {
-  background-color: orange;
+  background-color: purple;
   border-radius: 7.5px;
   border: none;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .pinky {
-  background-color: pink;
+  background-color: blue;
   border: none;
 }
 
