@@ -33,18 +33,18 @@ body {
 }
 
 .pacman {
-  background-color: red;
+  background-color: purple;
   border-radius: 7.5px;
   border: none;
 }
 
 .blinky {
-  background-color: blue;
+  background-color: black;
   border: none;
 }
 
 .pinky {
-  background-color: blue;
+  background-color: red;
   border: none;
 }
 
