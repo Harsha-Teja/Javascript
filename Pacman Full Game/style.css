@@ -28,18 +28,18 @@ body {
 }
 
 .power-pellet {
-  background-color: black;
+  background-color: blue;
   border-radius: 7.5px;
 }
 
 .pacman {
-  background-color: purple;
+  background-color: green;
   border-radius: 7.5px;
   border: none;
 }
 
 .blinky {
-  background-color: black;
+  background-color: purple;
   border: none;
 }
 
