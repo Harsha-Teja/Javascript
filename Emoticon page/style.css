@@ -20,12 +20,12 @@ body {
 
 #push-btn,
 #unshift-btn {
-  background-color: red;
+  background-color: blue;
 }
 
 #shift-btn,
 #pop-btn {
-  background-color: black;
+  background-color: purple;
 }
 
 h1 {
