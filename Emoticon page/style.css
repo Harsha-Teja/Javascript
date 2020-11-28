@@ -5,7 +5,7 @@ html {
 
 body {
   padding: 10px;
-  background-image: linear-gradientr(ed, green);
+  background-image: linear-gradientr(ed, red);
 }
 
 #emoji-container {
@@ -20,12 +20,12 @@ body {
 
 #push-btn,
 #unshift-btn {
-  background-color: blue;
+  background-color: red;
 }
 
 #shift-btn,
 #pop-btn {
-  background-color: purple;
+  background-color: black;
 }
 
 h1 {

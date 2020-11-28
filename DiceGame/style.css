@@ -1,10 +1,10 @@
 html,
 body {
   --color-1: blue;
-  --color-2: blue;
-  --color-3: black;
-  --color-4: red;
-  --color-5: purple;
+  --color-2: black;
+  --color-3: red;
+  --color-4: purple;
+  --color-5: blue;
   margin: 0;
   padding: 0;
 }
