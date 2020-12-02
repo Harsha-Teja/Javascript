@@ -9,7 +9,7 @@ body {
   flex-wrap: wrap;
   width: 200px;
   height: 200px;
-  border: solid 2px red;
+  border: solid 2px blue;
 }
 
 .square {
