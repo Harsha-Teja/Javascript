@@ -2,9 +2,9 @@ html,
 body {
   --color-1: blue;
   --color-2: red;
-  --color-3: black;
-  --color-4: blue;
-  --color-5: blue;
+  --color-3: purple;
+  --color-4: red;
+  --color-5: black;
   margin: 0;
   padding: 0;
 }
