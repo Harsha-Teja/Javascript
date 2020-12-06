@@ -1,9 +1,9 @@
 html,
 body {
   --color-1: blue;
-  --color-2: red;
+  --color-2: blue;
   --color-3: red;
-  --color-4: purple;
+  --color-4: red
   --color-5: red;
   margin: 0;
   padding: 0;
