@@ -1,12 +1,16 @@
-/*  Fonts
------
-font-family: 'Lora', serif;
-font-family: 'Ubuntu', sans-serif;
-*/
+*:root{
+  --font-family: "Langar",
+  --background-color: "#f1f6f9",
+  --font-color: "#394867",
+  --nav-color: "#14274e",
+  --general-color: "#9ba4b4",
+}
+
+
 
 body {
   margin: 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-family), sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
 }
@@ -23,9 +27,9 @@ Typography
 h1,
 h2,
 h3 {
-  font-family: "Lora", serif;
+  font-family: var(--font-family), serif;
   font-weight: 400;
-  color: #143774;
+  color: var(--general-color);
   margin-top: 0;
 }
 
@@ -35,7 +39,7 @@ h1 {
 }
 
 a {
-  color: #1792d2;
+  color: var(--nav-color);
 }
 
 a:hover,
@@ -50,7 +54,7 @@ strong {
 /* h1 subtitle */
 .subtitle {
   font-weight: 700;
-  color: #1792d2;
+  color: white;
   font-size: 0.75rem;
   margin: 0;
 }
@@ -86,7 +90,7 @@ strong {
 }
 
 .widget-title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-family), sans-serif;
   font-weight: 700;
 }
 
@@ -114,7 +118,7 @@ header {
 }
 
 footer {
-  background: brown;
+  background: #394867;
   color: grey;
   text-align: center;
   padding: 3em 0;
@@ -155,7 +159,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #707070;
+  color: var(--nav-color);
   font-weight: 700;
   padding: 0.25em 0;
 }
@@ -166,7 +170,7 @@ nav a:focus {
 }
 
 .current-page {
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid white;
 }
 
 .current-page:hover {
@@ -247,7 +251,7 @@ nav a:focus {
 .widget-recent-post {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid var(--general-color);
   margin-bottom: 1em;
 }
 

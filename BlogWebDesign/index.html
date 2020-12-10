@@ -1,10 +1,8 @@
 <html>
   <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Langar&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Blog Page Design</title>
   </head>
   <body>
     <header>
@@ -13,23 +11,26 @@
           <h1>Living the social life</h1>
           <p class="subtitle">A blog exploring minimalism in life</p>
         </div>
+        <!-- Start NavBar -->
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about-me.html">About me</a></li>
-            <li><a href="recent-posts.html">Recent posts</a></li>
+            <li><a href="recent-post.html">Recent posts</a></li>
           </ul>
         </nav>
+        <!-- End NavBar -->
       </div>
-      <!-- / .container -->
     </header>
-
+    
     <div class="container container-flex">
+      <!-- The start of Blog Content -->
       <main role="main">
+        <!-- The main Blog Start -->
         <article class="article-featured">
           <h2 class="article-title">Finding simplicity in life</h2>
           <img
-            src="img/sample.jpg"
+            src="img/sample.png"
             alt="simple white desk on a white wall with a plant on the far right side"
             class="article-image"
           />
@@ -43,7 +44,8 @@
           </p>
           <a href="#" class="article-read-more">CONTINUE READING</a>
         </article>
-
+        <!-- The main Blog End -->
+        <!-- The second Blog Start -->
         <article class="article-recent">
           <div class="article-recent-main">
             <h2 class="article-title">How to keep your cooking simple</h2>
@@ -56,14 +58,16 @@
           </div>
           <div class="article-recent-secondary">
             <img
-              src="img/sample.jpg"
+              src="img/sample.png"
               alt="two dumplings on a wood plate with chopsticks"
               class="article-image"
             />
             <p class="article-info">July 19, 2019 | 3 comments</p>
           </div>
         </article>
+        <!-- The second Blog End-->
 
+        <!-- The third Blog Start -->
         <article class="article-recent">
           <div class="article-recent-main">
             <h2 class="article-title">Simplicity and work</h2>
@@ -77,14 +81,16 @@
           </div>
           <div class="article-recent-secondary">
             <img
-              src="img/work.jpg"
+              src="img/sample.png"
               alt="a chair white chair at a white desk on a white wall"
               class="article-image"
             />
             <p class="article-info">July 12, 2019 | 3 comments</p>
           </div>
         </article>
+        <!-- The third Blog End -->
 
+        <!-- The four Blog Start -->
         <article class="article-recent">
           <div class="article-recent-main">
             <h2 class="article-title">Simple decorations</h2>
@@ -98,31 +104,35 @@
           </div>
           <div class="article-recent-secondary">
             <img
-              src="img/sample.jpg"
+              src="img/sample.png"
               alt="a green plant in a clear, round vase with water in it"
               class="article-image"
             />
             <p class="article-info">July 3, 2019 | 3 comments</p>
           </div>
         </article>
+        <!-- The four Blog End -->
       </main>
-
+      <!-- End of the Blog Content -->
+      <!-- The start of SideBar -->
       <aside class="sidebar">
+        <!-- The start first part of the side bar -->
         <div class="sidebar-widget">
           <h2 class="widget-title">ABOUT ME</h2>
-          <img src="img/me.jpg" alt="john doe" class="widget-image" />
+          <img src="img/me.png" alt="john doe" class="widget-image" />
           <p class="widget-body">
             I find life better, and I'm happier, when things are nice and
             simple.
           </p>
         </div>
-
+        <!-- The end of first part of the side bar -->
+        <!-- The start of second part of the side bar -->
         <div class="sidebar-widget">
           <h2 class="widget-title">RECENT POSTS</h2>
           <div class="widget-recent-post">
             <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
             <img
-              src="img/sample.jpgw"
+              src="img/sample.png"
               alt="two dumplings on a wood plate with chopsticks"
               class="widget-image"
             />
@@ -130,7 +140,7 @@
           <div class="widget-recent-post">
             <h3 class="widget-recent-post-title">Simplicity and work</h3>
             <img
-              src="img/sample.jpg"
+              src="img/sample.png"
               alt="a chair white chair at a white desk on a white wall"
               class="widget-image"
             />
@@ -138,18 +148,21 @@
           <div class="widget-recent-post">
             <h3 class="widget-recent-post-title">Simple decorations</h3>
             <img
-              src="img/sample.jpg"
+              src="img/sample.png"
               alt="a green plant in a clear, round vase with water in it"
               class="widget-image"
             />
           </div>
         </div>
+        <!-- The end of second part of the side bar -->
       </aside>
+      <!-- The End of SideBar -->
     </div>
-
+    <!-- Start Footer Part -->
     <footer>
       <p><strong>Living the Simple Life</strong></p>
       <p>Copyright 2019</p>
     </footer>
+    <!-- End Footer Part -->
   </body>
 </html>
