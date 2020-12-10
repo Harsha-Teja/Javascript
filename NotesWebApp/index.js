@@ -4,8 +4,10 @@ const entryTextbox = document.querySelector('.entry-textbox');
 const entriesNav = document.querySelector('.entries-nav');
 
 let add = 1;
+
 function addEntryToDom(event) {
-    event.preventDefault();
+    // Preventing the default nature of form to refresh when button is clicked
+    event.preventDefault(); 
     const entryDiv = document.createElement('div');
     entryDiv.className = 'single-entry';
     entryDiv.innerText = entryTextbox.value;
