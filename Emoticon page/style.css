@@ -5,7 +5,7 @@ html {
 
 body {
   padding: 10px;
-  background-image: linear-gradientr(ed, blue);
+  background-color: #daf7a6;
 }
 
 #emoji-container {
@@ -20,12 +20,12 @@ body {
 
 #push-btn,
 #unshift-btn {
-  background-color: red;
+  background-color: #f1f1f1;
 }
 
 #shift-btn,
 #pop-btn {
-  background-color: brown;
+  background-color: #f1f1f1;
 }
 
 h1 {
@@ -39,7 +39,7 @@ input {
   display: block;
   border: none;
   height: 30px;
-  background: black;
+  background: #76d7c4;
   border-radius: 6px;
   text-align: center;
 }
@@ -48,7 +48,7 @@ button {
   font-family: Baloo;
   letter-spacing: px;
   background: blue;
-  color: green;
+  color: black;
   border: none;
   padding: 4px 10px;
   border-radius: 6px;
