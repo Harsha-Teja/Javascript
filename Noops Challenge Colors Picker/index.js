@@ -1,15 +1,16 @@
+
 function displayColors(colors) {
     let myColorsHtml = colors.map(color => {
         return `<div class="my-color" style="background-color: ${color.value}"></div>`
     }).join('')
-    
-    console.log(myColorsHtml)
 
+    // console.log(myColorsHtml)
     document.body.innerHTML = `<div class="my-colors">
         ${myColorsHtml}
     </div>`
 }
 
+// Fetching list of color codes from the API
 async function getColors(colorCount) {
     let response = await fetch(`https://api.noopschallenge.com/hexbot?count=${colorCount}`)
     let data = await response.json()
