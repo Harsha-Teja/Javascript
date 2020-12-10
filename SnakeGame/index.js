@@ -12,18 +12,20 @@ let speed = 0.9
 let timerId = 0
 
 function createGrid() {
-    //create 100 of these elements with a for loop
+    // 100 of these elements with a for loop
     for (let i=0; i < width*width; i++) {
-     //create element
+     //creating new element
     const square = document.createElement('div')
-    //add styling to the element
+    // styling to the element
     square.classList.add('square')
-    //put the element into our grid
+    //putting the element into our grid
     grid.appendChild(square)
-    //push it into a new squares array    
+    //pushing it into a new squares array    
     squares.push(square)
     }
 }
+
+// Creating the grid for the game
 createGrid()
 
 currentSnake.forEach(index => squares[index].classList.add('snake'))

@@ -1,7 +1,14 @@
+:root {
+  --snake-color: #138d75;
+  --apple-color: #ff5733;
+  --background-color: #99ecdc;
+}
+
 html,
 body {
   margin: 10;
   padding: 10;
+  background-color: var(--background-color);
 }
 
 .grid {
@@ -18,9 +25,9 @@ body {
 }
 
 .snake {
-  background-color: black;
+  background-color: var(--snake-color);
 }
 
 .apple {
-  background-color: brown;
+  background-color: var(--apple-color);
 }
