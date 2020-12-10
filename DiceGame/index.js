@@ -12,6 +12,7 @@ const message = document.getElementById("message")
 const rollBtn = document.getElementById("rollBtn")
 const resetBtn = document.getElementById("resetBtn")
 
+// To reset the gamae after one of the two players win the game
 function showResetButton() {
     rollBtn.style.display = "none"
     resetBtn.style.display = "block"
@@ -20,11 +21,14 @@ function showResetButton() {
 /* Hook up a click event listener to the Roll Dice Button. */
  rollBtn.addEventListener("click", function() {
     const randomNumber = Math.floor(Math.random() * 6) + 1
-
+    // This condition will run with respect to the player identity playing
     if (player1Turn) {
+        // We are calculating the random number whe nthe player 1
         player1Score += randomNumber
+        // Displaying the number
         player1Scoreboard.textContent = player1Score
         player1Dice.textContent = randomNumber
+        // Making the player 1 word inactive and activating the player 2 to display
         player1Dice.classList.remove("active")
         player2Dice.classList.add("active")
         message.textContent = "Player 2 Turn"
@@ -37,10 +41,11 @@ function showResetButton() {
         message.textContent = "Player 1 Turn"
     }
     
-    if (player1Score >= 20) {
+    // Condition to hit when if any of one player is scroing more than 10
+    if (player1Score >= 10) {
         message.textContent = "Player 1 Won 🥳"
         showResetButton()
-    }  else if (player2Score >= 20) {
+    }  else if (player2Score >= 10) {
         message.textContent = "Player 2 Won 🎉"
         showResetButton()
     }
@@ -51,6 +56,7 @@ resetBtn.addEventListener("click", function(){
     reset()
 })
 
+//  To reset the game we are making everthing back to initial state
 function reset() {
     player1Score = 0
     player2Score = 0
