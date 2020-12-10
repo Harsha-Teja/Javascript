@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Punk API Beer App</title>
+    <title>Beer Review</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Punk API Beer App</header>
+    <!-- The Header content -->
+    <header>Beer Review</header>
     <div class="container">
+      <!-- The filters under the options of Alcohol Volume, Hoppiness and Page -->
       <div class="filters">
+        <!-- The filter option under the Alcohol Volume -->
         <div class="card filter-card">
           <div class="filter-container">
             <div class="filter-text">
@@ -26,7 +29,7 @@
                     value="all"
                     checked
                   />
-                  <span class="filter-all">All</span>
+                  <span class="filter-all">Complete</span>
                 </label>
                 <label for="abvWeak">
                   <input
@@ -223,8 +226,9 @@
               </form>
             </div>
           </div>
-        </div>
-
+        </div> 
+<!-- The end of the Alcohol Volume -->
+<!-- The filters of Hoppiness Index -->
         <div class="card filter-card">
           <div class="filter-container">
             <div class="filter-text">
@@ -241,7 +245,7 @@
                     value="all"
                     checked
                   />
-                  <span class="filter-all">All</span>
+                  <span class="filter-all">Complete</span>
                 </label>
                 <label for="ibuWeak">
                   <input
@@ -313,7 +317,8 @@
             </div>
           </div>
         </div>
-
+<!-- The end of the Hoppiness Index Values -->
+<!-- The page navigation -->
         <div class="card filter-card">
           <div class="filter-container">
             <div class="filter-text">
@@ -329,12 +334,16 @@
             </div>
           </div>
         </div>
+        <!-- The end of page navigation -->
       </div>
-
+      <!-- The end of the Header and Filters cards -->
+      <!-- The Start of the beers display derived from the js page-->
       <div class="beers"></div>
+      <!-- The End of the beers display -->
     </div>
-
+    <!-- Importing the svg files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
-    <script src="index.js"></script>
+    <!-- Importing the JS file -->
+    <script src="index.js"></script> 
   </body>
 </html>

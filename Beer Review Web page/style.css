@@ -1,16 +1,17 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Old+Standard+TT&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300&display=swap");
 
 /* custom properties */
 :root {
-  --off-white: #f2f2f2;
+  --off-white: #e8ffc1;
   --black: rgba(0, 0, 16, 0.8);
-  --blue: #0365c0;
-  --green: #00cc4f;
-  --orange: #ffb144;
+  --blue: #a5ecd7;
+  --green: #51adcf;
+  --orange: #0278ae;
   --disabled: rgba(0, 0, 16, 0.3);
-  --shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19),
+  --shadow: 0 0.5rem 1rem rgba(0, 0, 50, 0.59),
     0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+  --font-family: "Nunito";
 }
 
 /* resets */
@@ -21,7 +22,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: var(--off-white);
-  font-family: "Lato", sans-serif;
+  font-family: var(--font-family), sans-serif;
   color: var(--black);
   box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ html {
 header {
   padding: 1rem 2rem;
   background: var(--blue);
-  color: var(--off-white);
+  color: black;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -186,14 +187,14 @@ input + svg {
 }
 .beer__name {
   margin: 0 auto 0.5rem auto;
-  font-family: "Old Standard TT", serif;
+  font-family: var(--font-family), serif;
   font-size: 2.4rem;
   line-height: 1.07em;
   letter-spacing: -0.015em;
 }
 .beer__tagline {
   padding-bottom: 0.5rem;
-  font-family: "Old Standard TT", serif;
+  font-family: var(--font-family), serif;
   font-style: italic;
   border-bottom: 2px solid var(--blue);
 }

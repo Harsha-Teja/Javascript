@@ -1,5 +1,8 @@
 // variables
+// The Beer Properties Api url 
 const urlBase = "https://api.punkapi.com/v2/beers?page=";
+
+// Assigning the filter buttons to the respective variables
 const filterABV = document.getElementById("filterABV");
 const filterIBU = document.getElementById("filterIBU");
 const pageText = document.getElementById("pageNumber");
@@ -8,6 +11,7 @@ const nextPage = document.getElementById("nextPage");
 let optionsABV = "", optionsIBU = "", page = 1;
 
 // filters
+// The Alcohol Volume Filter
 filterABV.addEventListener("change", e => {
    const value = e.target.value; 
    
@@ -30,6 +34,7 @@ filterABV.addEventListener("change", e => {
    getBeers();
 });
 
+// The Hoppiness Index Value
 filterIBU.addEventListener("change", e => {
    const value = e.target.value; 
    
@@ -53,6 +58,7 @@ filterIBU.addEventListener("change", e => {
 });
 
 async function getBeers() {
+    // In here we are modifying the search query in the url to get the respective values
     const url = urlBase + page + optionsABV + optionsIBU;
     // fetch
     const beerPromise = await fetch(url);
@@ -76,6 +82,7 @@ async function getBeers() {
     const beersDiv = document.querySelector('.beers');
     
     let beerHtml = "";
+    // Fixing a default bottle image to display when the api value dosen't hold one
     const genericBottle = 'https://cdn.pixabay.com/photo/2014/12/22/00/04/bottle-576717_960_720.png';
     
     beers.forEach(beer => {
@@ -100,7 +107,7 @@ async function getBeers() {
         </div>
        `; 
     });
-    
+    // Here we are inserting the value to be displayed to the Beer div element in the HTML page
     beersDiv.innerHTML = beerHtml;
 }
 
