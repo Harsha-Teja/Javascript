@@ -1,3 +1,4 @@
+// Defining the width of the borad
 const width = 28
 const grid = document.querySelector('.grid')
 const scoreDisplay = document.getElementById('score')
@@ -10,6 +11,7 @@ let score = 0
 // 3 - powerpellets
 // 4 - empty
 
+// Laying out the structure of the board and elements in it. Naming different elements with different numbers
 const layout = [
     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
     1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,
@@ -51,7 +53,7 @@ function createBoard() {
         grid.appendChild(square)
         //put square in squares array
         squares.push(square)
-
+        // Adding the character with respect to the naming convention of number 1, 2, 3 
         if (layout[i] === 0) {
             squares[i].classList.add('pac-dot')
         } else if (layout[i] === 1) {
@@ -74,6 +76,7 @@ createBoard()
 //starting position of pacman 
 let pacmanCurrentIndex = 490
 squares[pacmanCurrentIndex].classList.add('pacman')
+
 
 function control(e) {
     squares[pacmanCurrentIndex].classList.remove('pacman')
