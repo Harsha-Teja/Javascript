@@ -1,0 +1,85 @@
+$color: #F3F3F3;
+$stroke-width: 5px;
+$size: 136px;
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: #2B7141;
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+}
+
+.logo {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 25px;
+ 
+ .icon {
+  width: 50%;
+  max-width: 300px;
+  
+  path {
+   fill: transparent;
+   stroke-width: $stroke-width;
+   stroke-dasharray: 3000;
+   stroke-dashoffset: -3000;
+   
+   &.is-active {
+     animation: icon 4s 1 forwards;
+   }
+  }
+ }
+ 
+ .text {
+  width: 100%;
+  max-width: 900px;
+  
+  text {
+   stroke-width: $stroke-width;
+   stroke-dasharray: 800;
+   stroke-dashoffset: -800;
+   
+   &.is-active {
+    animation: text 4s 1 forwards;
+   }
+  }
+ }
+}
+
+@keyframes icon {
+ 50% {
+  stroke-dashoffset: 0;
+ }
+ 75% {
+  fill: transparent;
+  stroke-width: $stroke-width;
+ }
+ 100% {
+  stroke-dashoffset: 0;
+  fill: $color;
+  stroke-width: 0px;
+ }
+}
+
+@keyframes text {
+ 75% {
+  fill: transparent;
+  stroke-dashoffset: 0;
+  stroke-width: $stroke-width;
+ }
+ 100% {
+  stroke-dashoffset: 0;
+  fill: $color;
+  stroke-width: 0;
+ }
+}
